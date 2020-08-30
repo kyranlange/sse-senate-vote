@@ -1,0 +1,13 @@
+@startuml
+actor Voter
+Voter -> VoteRecorder: Completed Ballot
+VoteRecorder -> BallotSigner: Completed Ballot
+BallotSigner -> VoteRecorder: Ballot Signature
+VoteRecorder -> Voter: Returned Ballot
+Voter -> Voter: Verifies the Returned Ballot
+Voter -> VoteRecorder: Verified Ballot
+VoteRecorder -> BallotWriter: Verified Ballot
+database Disk
+BallotWriter -> Disk: Verified Ballot
+VoteRecorder -> Voter: Ballot Signature
+@enduml
