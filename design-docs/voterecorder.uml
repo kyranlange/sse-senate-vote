@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.adelaide.sse.voterecorder</OriginalElement>
+  <nodes>
+    <node x="162.31111111111113" y="75.0">edu.adelaide.sse.voterecorder.dto.BallotSignature</node>
+    <node x="213.57152777777782" y="1049.0">edu.adelaide.sse.voterecorder.controller.VoteRecorder</node>
+    <node x="136.75" y="408.0">edu.adelaide.sse.voterecorder.dto.ReturnedBallot</node>
+    <node x="438.75" y="866.5">edu.adelaide.sse.voterecorder.util.BallotWriter</node>
+    <node x="648.75" y="791.0">edu.adelaide.sse.voterecorder.model.CompletedBallot</node>
+    <node x="0.0" y="866.5">edu.adelaide.sse.voterecorder.util.BallotSigner</node>
+    <node x="635.25" y="433.0">edu.adelaide.sse.voterecorder.model.Vote</node>
+    <node x="648.75" y="0.0">edu.adelaide.sse.voterecorder.model.Candidate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.adelaide.sse.voterecorder.util.BallotSigner" target="edu.adelaide.sse.voterecorder.dto.BallotSignature">
+      <point x="-84.25" y="-28.5" />
+      <point x="84.25" y="383.0" />
+      <point x="199.47777777777776" y="383.0" />
+      <point x="-74.33333333333337" y="104.0" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.model.CompletedBallot" target="edu.adelaide.sse.voterecorder.model.Vote">
+      <point x="0.0" y="-104.0" />
+      <point x="0.0" y="141.5" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.controller.VoteRecorder" target="edu.adelaide.sse.voterecorder.dto.BallotSignature">
+      <point x="0.0" y="-66.5" />
+      <point x="429.5715277777778" y="1024.0" />
+      <point x="428.25" y="1024.0" />
+      <point x="428.25" y="383.0" />
+      <point x="348.1444444444445" y="383.0" />
+      <point x="74.33333333333337" y="104.0" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.dto.ReturnedBallot" target="edu.adelaide.sse.voterecorder.dto.BallotSignature">
+      <point x="0.0" y="-166.5" />
+      <point x="277.25" y="383.0" />
+      <point x="273.81111111111113" y="383.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.model.Vote" target="edu.adelaide.sse.voterecorder.model.Candidate">
+      <point x="0.0" y="-141.5" />
+      <point x="0.0" y="179.0" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.controller.VoteRecorder" target="edu.adelaide.sse.voterecorder.util.BallotWriter">
+      <point x="86.39999999999998" y="-66.5" />
+      <point x="515.9715277777777" y="1024.0" />
+      <point x="533.75" y="1024.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.controller.VoteRecorder" target="edu.adelaide.sse.voterecorder.model.CompletedBallot">
+      <point x="172.79999999999995" y="-66.5" />
+      <point x="602.3715277777778" y="1024.0" />
+      <point x="760.25" y="1024.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.controller.VoteRecorder" target="edu.adelaide.sse.voterecorder.util.BallotSigner">
+      <point x="-172.79999999999995" y="-66.5" />
+      <point x="256.77152777777786" y="1024.0" />
+      <point x="168.5" y="1024.0" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.controller.VoteRecorder" target="edu.adelaide.sse.voterecorder.dto.ReturnedBallot">
+      <point x="-86.39999999999998" y="-66.5" />
+      <point x="343.17152777777784" y="1024.0" />
+      <point x="347.5" y="1024.0" />
+      <point x="70.25" y="166.5" />
+    </edge>
+    <edge source="edu.adelaide.sse.voterecorder.util.BallotSigner" target="edu.adelaide.sse.voterecorder.dto.ReturnedBallot">
+      <point x="84.25" y="-28.5" />
+      <point x="252.75" y="766.0" />
+      <point x="207.0" y="766.0" />
+      <point x="-70.25" y="166.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6697171381031614" x="443.0" y="591.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
