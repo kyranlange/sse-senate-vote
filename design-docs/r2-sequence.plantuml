@@ -1,0 +1,9 @@
+@startuml
+actor ElectoralOfficial
+database Disk
+ElectoralOfficial -> Disk: Encryption Key
+Disk -> ElectoralOfficial: Decrypted vote
+ElectoralOfficial -> GPG: Vote
+GPG -> ElectoralOfficial: Verified Vote
+ElectoralOfficial -> Tally: Counted Preference
+@enduml
