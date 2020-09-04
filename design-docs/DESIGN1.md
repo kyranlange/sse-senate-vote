@@ -12,6 +12,7 @@ Rubrics:
 ## Chosen Requirements
 
 **KL-R02:** Anonymity - The voter must remain anonymous and not be tied to a particular vote. Secret ballots are fundamental to democracy.
+
 **KL-R05:** Recount - The voting system must allow for recounts should the results be disputed. A recount is an alternative system of tabulating votes. It is slower (because it is manual, simpler (usually only focuses on one seat) and therefore more accurate.
 
 ## Design
